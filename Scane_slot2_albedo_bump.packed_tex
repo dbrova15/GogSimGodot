@@ -1,0 +1,8 @@
+{
+	"contains_albedo": true,
+	"resolution": 512,
+	"src": {
+		"a": "res://TarrainData/Rocks006_8K-PNG/Rocks006_8K_Displacement.png",
+		"rgb": "res://TarrainData/Gravel022_8K-PNG/Gravel022_8K_Color.png"
+	}
+}

@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://sketchfab/tangerine_tree/scene.gltf" type="PackedScene" id=1]
+
+[sub_resource type="CylinderShape" id=1]
+height = 0.345523
+radius = 0.0442424
+
+[node name="TangerineTree" type="Spatial"]
+
+[node name="scene" parent="." instance=ExtResource( 1 )]
+transform = Transform( 5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0 )
+
+[node name="StaticBody" type="StaticBody" parent="scene"]
+
+[node name="CollisionShape" type="CollisionShape" parent="scene/StaticBody"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0494234, 0.299581, -0.196879 )
+shape = SubResource( 1 )

@@ -1,0 +1,8 @@
+{
+	"contains_albedo": false,
+	"resolution": 512,
+	"src": {
+		"a": "res://TarrainData/Rock028_8K-PNG/Rock028_8K_Roughness.png",
+		"rgb": "res://TarrainData/Rock028_8K-PNG/Rock028_8K_NormalGL.png"
+	}
+}

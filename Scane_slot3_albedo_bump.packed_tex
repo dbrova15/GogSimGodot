@@ -1,0 +1,8 @@
+{
+	"contains_albedo": true,
+	"resolution": 512,
+	"src": {
+		"a": "res://TarrainData/Ground059_8K-PNG/Ground059_8K_Displacement.png",
+		"rgb": "res://TarrainData/Ground059_8K-PNG/Ground059_8K_Color.png"
+	}
+}

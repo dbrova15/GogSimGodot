@@ -1,0 +1,8 @@
+{
+	"contains_albedo": false,
+	"resolution": 512,
+	"src": {
+		"a": "res://TextureData/Rock027_1K_Roughness.png",
+		"rgb": "res://TextureData/Rock027_1K_NormalGL.png"
+	}
+}

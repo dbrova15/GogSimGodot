@@ -1,0 +1,28 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://sketchfab/mutuy/scene.gltf" type="PackedScene" id=1]
+[ext_resource path="res://Trees/Tree.gd" type="Script" id=2]
+
+[sub_resource type="CylinderShape" id=1]
+height = 1.03614
+radius = 0.186318
+
+[sub_resource type="CylinderShape" id=2]
+height = 0.550548
+radius = 0.122879
+
+[node name="MutuyTree" type="Spatial"]
+script = ExtResource( 2 )
+
+[node name="scene" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1.5, 0, 0, 0, 1.5, 0, 0, 0, 1.5, 0, 0, 0 )
+
+[node name="StaticBody" type="StaticBody" parent="scene"]
+
+[node name="CollisionShape" type="CollisionShape" parent="scene/StaticBody"]
+transform = Transform( 0.981942, -0.184442, -0.04208, 0.189029, 0.965515, 0.179025, 0.00760912, -0.183746, 0.982944, -0.0737762, 0.477849, -0.0393549 )
+shape = SubResource( 1 )
+
+[node name="CollisionShape2" type="CollisionShape" parent="scene/StaticBody"]
+transform = Transform( 0.732127, -0.503933, -0.458303, 0.663538, 0.679698, 0.312614, 0.153971, -0.532975, 0.832004, -0.274142, 1.17998, -0.226792 )
+shape = SubResource( 2 )

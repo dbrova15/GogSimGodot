@@ -1,0 +1,8 @@
+{
+	"contains_albedo": false,
+	"resolution": 512,
+	"src": {
+		"a": "res://TarrainData/Ground037_8K-PNG/Ground037_8K_Roughness.png",
+		"rgb": "res://TarrainData/Ground037_8K-PNG/Ground037_8K_NormalGL.png"
+	}
+}

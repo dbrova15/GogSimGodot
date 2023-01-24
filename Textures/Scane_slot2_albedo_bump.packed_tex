@@ -1,0 +1,8 @@
+{
+	"contains_albedo": true,
+	"resolution": 512,
+	"src": {
+		"a": "res://TextureData/Rock027_1K_Displacement.png",
+		"rgb": "res://TextureData/Rock027_1K_Color.png"
+	}
+}
